@@ -1,0 +1,438 @@
+/* --- general body styles ---*/
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+/* ----------- Nav Bar styling   ----*/
+.header-nav{
+	background-color:#000;
+}
+/*-- styling for logo --*/
+.navbar-brand{
+  font-family: 'Arvo', serif;
+  font-size: 28px;
+}
+/*-- styling for Nav menu --*/
+.navbar-nav a{
+  font-family: 'Arvo', serif;
+  text-transform: uppercase;
+  font-size: 13px;
+	font-weight: 600;
+}
+.navbar-nav a:hover{
+	background-color: #ffbb33;
+}
+
+/*--------- body styling -------*/
+
+.callout-sec1{
+	background-color: #74c3f0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+  color: black;
+	letter-spacing: 1px;
+	word-spacing: 0px;
+	min-height: 350px;
+	padding: 0;
+	margin-right: 20px;
+}
+
+.callout-sec1 h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	word-spacing: 2px;
+	padding: 0 20 0 20px;
+	font-weight: 700%;
+	text-align: left;
+	color: #990000;;
+}
+.callout-sec1 p {
+ 	font-family:  'Arvo', serif;
+  font-weight: 500%;
+	font-size: 20px;
+	margin: 10px;
+}
+/* ---------Get involved section --and Who we are section ------*/
+#who p{
+	text-align: left;
+	font-weight: 300;
+}
+
+#get-involved {
+  background-color: #e8eed9;
+}
+#get-involved p {
+  font-weight: 300;
+}
+
+.homepage {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.homepage h2, .homepage h3 {
+  color: #990000;
+font-family: 'Arvo', serif;
+  text-transform: uppercase;
+}
+
+.homepage h2 {
+  font-size: 30px;
+}
+
+.homepage h3 {
+  font-size: 26px;
+}
+
+.homepage p {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.homepage a {
+  color: #fafafa;
+}
+
+.homepage a:hover {
+  color: #d9f1aa;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.homepage hr {
+  border-top: 1px solid #e74c3d;
+  width: 160px;
+  margin-top: 15px;
+}
+/*--- download section styling --*/
+
+.footer-downloads{
+  background-color:#fad9bd;
+}
+.menucontainer{
+  font-size:0;
+}
+#nav{
+  margin: 0;
+}
+#nav li{
+  font-size: 14px;
+  padding: 0;
+}
+.menuitem{
+  height: 80px;
+  width: 350px;
+  text-align: center;
+  padding: 0;
+}
+.menuitem a{
+  /* ---to make the entire div cliable ---*/
+width: 100%;
+height: 120px;
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.menuitem i{
+  padding-top: 22px;
+  display: block;  /* -- to display the icon on a seperate line  as normally inline --*/
+  color: red;
+  font-size: 26px;
+}
+.hvr-sweep-to-bottom:hover{
+background: rgba(0, 0, 0, 0.2);
+height: 200px;
+}
+
+
+/*--- footer styling --*/
+
+footer {
+    /* height:30px; */
+    /* background: #003767; */
+    margin-bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+/* to align all icons in the center --*/
+.footer-social-links{
+  text-align: center;
+}
+/* to remove bulletin list from li --*/
+.footer-social-links li{
+  list-style-type: none;
+  display: inline;
+}
+/* aliging icons  --*/
+.footer-social-links i{
+ padding:10px 60px 5px 60px;
+ font-size: 100%;
+ color: #000;
+
+ }
+.footer-social-links i:hover {
+    background-color: rgb(191, 220, 243);
+}
+
+
+
+/* to End of footer styling --*/
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) { 
+
+  .jumbotron h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 991px) { 
+
+  .jumbotron h1 {
+    font-size: 44px;
+  }
+
+  .jumbotron p {
+    padding: 0 10px;
+  }
+
+  #get-involved .col-md-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 767px) { 
+
+  .jumbotron h1 {
+    font-size: 24px;
+  }
+
+  .jumbotron p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .btn-lg {
+    font-size: 18px;
+  }
+
+  .homepage p {
+    font-size: 18px;
+  }
+
+  footer img {
+    width: 80%;
+  }
+
+}
+
+.listpm{padding-right: 100px;}
+
+/*--- student enrollment form styling --*/
+.student-enroll-bg{
+  background: url('https://cdn.hipwallpaper.com/i/9/31/J2zbvC.jpg') no-repeat center ;   
+}
+.student-enroll-bg h1{
+  color: #990000;
+font-family: 'Arvo', serif;
+  text-transform: uppercase;
+	font-size: 35px;
+}
+
+.student-enroll-bg  label{
+  font-weight: 700;
+}
+/* not working */
+#enroll-btn{
+  margin: mr-auto;
+}
+
+/*--- trainer enrollment form styling --*/
+.trainer-enroll-bg{
+  background: url('https://previews.123rf.com/images/romaschka777/romaschka7771805/romaschka777180500091/100918449-beautiful-vector-background-for-a-holiday-teacher-s-day-postcard-poster-banner-packaging-training-ma.jpg') no-repeat center;
+}
+.trainer-enroll-bg h1{
+  color: #990000;
+font-family: 'Arvo', serif;
+  text-transform: uppercase;
+	font-size: 35px;
+}
+.trainer-enroll-bg  label{
+  font-weight: 700;
+}
+
+/*--- sponcer enrollment form styling --*/
+.sponsor-enroll-bg {
+background: url('https://cdn.hipwallpaper.com/i/9/31/J2zbvC.jpg') no-repeat center;
+}
+.sponsor-enroll-bg h1{
+  color: #990000;
+font-family: 'Arvo', serif;
+  text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+}
+.sponsor-enroll-bg  label{
+  font-weight: 700;
+}
+
+.site-footer
+{
+  background-color:#00235b !important;
+  padding:30px 0 20px 0;
+  font-size:16px;
+  line-height:24px;
+   margin-top: 0px;
+color:#e9ecef;
+	margin-bottom: 0;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right;
+  margin-top: 18px;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#0a7ecc
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
